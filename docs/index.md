@@ -29,16 +29,18 @@ Built with [bashew](https://github.com/pforret/bashew).
 
 ## Installation
 
+Using [basher](https://github.com/basherpm/basher):
+
+```bash
+basher install pforret/migrate_forge
+```
+
+Or manually:
+
 ```bash
 git clone https://github.com/pforret/migrate_forge.git
 cd migrate_forge
 chmod +x migrate_forge.sh
-```
-
-Optionally symlink it into your PATH:
-
-```bash
-ln -s "$(pwd)/migrate_forge.sh" /usr/local/bin/migrate_forge
 ```
 
 ## Configuration
